@@ -4,9 +4,10 @@
 ## Notes-deDE: Fügt mehrere Beutekisten zu AdiBags Gruppen hinzu.
 ## Notes-frFR: Ajoute différents coffres dans un groupe AdiBags
 
-## Version: 0.9.0
+## Version: @project-version@
 ## Author: McRadane, Bruneor of Heroes of Silence - Khaz'Goroth-EU
-## X-Date: 2020-13-03
+## X-Date: @project-date-iso@
+## X-Curse-Project-ID: 366993
 ## X-License: MIT
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
