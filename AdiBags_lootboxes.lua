@@ -17,28 +17,23 @@ local function AddToSet(Set, List)
 end
 
 local emissary = {
-	146747,		-- Dreamweaver 7.2
-	151464,		-- Dreamweaver 7.2.5
-	146750,		-- Farondis 7.2
-	151467,		-- Farondis 7.2.5
-	146748,		-- Highmountain 7.2
-	151465,		-- Highmountain 7.2.5
-	146753,		-- Kirin Tor 7.2
-	151470,		-- Kirin Tor 7.2.5
-	146751,		-- Nightfallen 7.2
-	151468,		-- Nightfallen 7.2.5
-	146749,		-- Valarjar 7.2
-	151466,		-- Valarjar 7.2.5
-	146752,		-- Warden 7.2
-	151469,		-- Warden 7.2.5
-	152652,		-- Army of the Light 7.3
-	152650,		-- Argussian Reach 7.3
+	137560, 146747,	151464,	154903, 157822, -- Dreamweaver 7.3.5
+	137563, 146750,	151467,	154906, 157825,	-- Farondis 7.3.5
+	137561, 146748,	151465,	154904, 157823, -- Highmountain 7.3.5
+	141350, 146753,	151470,	154909, 157828,	-- Kirin Tor 7.3.5
+	137564, 146751,	151468,	154907, 157826,	-- Nightfallen 7.3.5
+	137562, 146749,	151466,	154905,	157824,	-- Valarjar 7.3.5
+	137565, 146752,	151469,	154908, 157827,	-- Warden 7.3.5
+					152652,	154912, 157829,		-- Army of the Light 7.3.5
+					152650,	154911,	157831,		-- Argussian Reach 7.3.5
 }
 
 local legionfall = {
 	147384,		-- Legionfall 7.2
 	151471,		-- Legionfall 7.2.5
 	152649,		-- Legionfall 7.3
+	154910,		-- Legionfall 7.3.2
+	157830,		-- Legionfall 7.3.5
 }
 local paragon = {
 	146897,		-- Farondis 7.2

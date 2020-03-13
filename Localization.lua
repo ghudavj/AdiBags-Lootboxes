@@ -55,18 +55,15 @@ elseif locale == "itIT" then
 -- N["Emissary, Recompense and Paragon"] = ""
 
 elseif locale == "frFR" then
---Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
---Translation missing
--- N["Legionfall"] = ""
---Translation missing
--- N["Show Legionfall Recompense bags in this group."] = ""
---Translation missing
--- N["Paragon"] = ""
---Translation missing
--- N["Show Paragon chests in this group."] = ""
---Translation missing
--- N["Emissary, Recompense and Paragon"] = ""
+	N["Lockboxes and Chests."] = "Coffres."
+	N["Legionfall"] = "Déclin de la Légion"
+	N["Show Legionfall Recompense bags in this group."] = "Afficher les coffres du Déclin de la Légion dans ce groupe."
+	N["Paragon"] = "Paragon"
+	N["Show Paragon chests in this group."] = "Afficher les coffres Paragon dans ce groupe."
+	N["Lockboxes and Chests"] = "Coffres"
+	N["Rogue Lockboxes"] = "Coffres des Voleurs"
+	N["Show Rogue lockboxes in this group."] = "Afficher les coffres des Voleurs dans ce groupe."
+	N["Emissary chests, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = "Coffres d'émissaire, du Déclin de la Légion, Parangon et de Voleurs."
 
 elseif locale == "koKR" then
 --Translation missing
