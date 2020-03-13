@@ -1,13 +1,13 @@
-## Interface: 80000
+## Interface: 80300
 ## Title: AdiBags - Lootboxes
 ## Notes: Adds various lootboxes to AdiBags virtual groups
 ## Notes-deDE: Fügt mehrere Beutekisten zu AdiBags Gruppen hinzu.
 ## Notes-frFR: Ajoute différents coffres dans un groupe AdiBags
 
-## Version: 0.8-7.3-release
-## Author: Bruneor of Heroes of Silence - Khaz'Goroth-EU
-## X-Date: 2017-27-08
-## X-License: © 2017 Michael "Bruneor" Boll, All Rights Reserved
+## Version: 0.9.0
+## Author: McRadane, Bruneor of Heroes of Silence - Khaz'Goroth-EU
+## X-Date: 2020-13-03
+## X-License: MIT
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 

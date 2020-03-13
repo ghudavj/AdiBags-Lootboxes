@@ -52,9 +52,25 @@ local paragon = {
 	152103,		-- Dreamweaver 7.2.5
 	152923,		-- Army of the Light 7.3
 	152922,		-- Argussian Reach 7.3
+	166294,		-- Storm's Wake 8.0
+	166300,		-- 7th Legion 8.0
+	166297,		-- Order of Embers 8.0
+	166295,		-- Proudmoore Admiralty 8.0
+	166282,		-- Talanji's Expedition 8.0
+	166299,		-- Honorbound 8.0
+	166290,		-- Voldunai 8.0
+	166292,		-- Zandalari Empire 8.0
+	166245,		-- Tortollan 8.0
+	166298,		-- Champion of Azeroth 8.0
+	169940,		-- Unshackled 8.2
+	169939,		-- Ankoan 8.2
+	170061,		-- Rustbolt 8.2
+	174484,		-- Uldum Accord 8.3
+	174483,		-- Rajani 8.3
 }
 
 local roguebox = {
+	169475
 	121331,
 	116920,
 	88567,
