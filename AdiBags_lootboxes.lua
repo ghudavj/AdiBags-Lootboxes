@@ -24,8 +24,14 @@ local emissary = {
 	137564, 146751,	151468,	154907, 157826,	-- Nightfallen 7.3.5
 	137562, 146749,	151466,	154905,	157824,	-- Valarjar 7.3.5
 	137565, 146752,	151469,	154908, 157827,	-- Warden 7.3.5
-					152652,	154912, 157829,		-- Army of the Light 7.3.5
-					152650,	154911,	157831,		-- Argussian Reach 7.3.5
+					152652,	154912, 157829,	-- Army of the Light 7.3.5
+					152650,	154911,	157831,	-- Argussian Reach 7.3.5
+	173372,									-- Black Empire Assault 8.3
+	174961,									-- Amathet Assault 8.3
+	174960,									-- Aqir Assault 8.3
+	174958,									-- Mogu Assault 8.3	
+	174959,									-- Endless Swarm Assault 8.3
+
 }
 
 local legionfall = {
@@ -70,7 +76,7 @@ local paragon = {
 }
 
 local roguebox = {
-	169475
+	169475,
 	121331,
 	116920,
 	88567,
@@ -134,7 +140,7 @@ end
 
 local setFilter = AdiBags:RegisterFilter("Lockboxes and Chests", 96, "ABEvent-1.0")
 setFilter.uiName = N["Lockboxes and Chests"]
-setFilter.uiDesc = N["Emissary chests, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."]
+setFilter.uiDesc = N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."]
 
 function setFilter:OnInitialize()
 	self.db = AdiBags.db:RegisterNamespace("Chests and Bags", {

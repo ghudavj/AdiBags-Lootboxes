@@ -16,7 +16,7 @@ local locale = GetLocale()
 
 if locale == "ruRU" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -42,7 +42,7 @@ N["Lockboxes and Chests"] = "Schliesskassetten und Kisten"
 
 elseif locale == "itIT" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -61,13 +61,13 @@ elseif locale == "frFR" then
 	N["Paragon"] = "Paragon"
 	N["Show Paragon chests in this group."] = "Afficher les coffres Paragon dans ce groupe."
 	N["Lockboxes and Chests"] = "Coffres"
-	N["Rogue Lockboxes"] = "Coffres des Voleurs"
-	N["Show Rogue lockboxes in this group."] = "Afficher les coffres des Voleurs dans ce groupe."
-	N["Emissary chests, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = "Coffres d'émissaire, du Déclin de la Légion, Parangon et de Voleurs."
+	N["Rogue Lockboxes"] = "Coffres à crocheter"
+	N["Show Rogue lockboxes in this group."] = "Afficher les coffres à crocheter dans ce groupe."
+	N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = "Coffres d'émissaire, des Assaut de N'Zoth, du Déclin de la Légion, Parangon et à crocheter."
 
 elseif locale == "koKR" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -81,7 +81,7 @@ elseif locale == "koKR" then
 
 elseif locale == "zhCN" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -95,7 +95,7 @@ elseif locale == "zhCN" then
 
 elseif locale == "ptBR" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -109,7 +109,7 @@ elseif locale == "ptBR" then
 
 elseif locale == "zhTW" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -123,7 +123,7 @@ elseif locale == "zhTW" then
 
 elseif locale == "esES" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
@@ -137,7 +137,7 @@ elseif locale == "esES" then
 
 elseif locale == "esMX" then
 --Translation missing
--- N["Emissary chests, Legionfall Recompense bags and Paragon chests."] = ""
+-- N["Emissary chests, N'Zoth Assault, Legionfall Recompense bags, Paragon chests and Rogue lockboxes."] = ""
 --Translation missing
 -- N["Legionfall"] = ""
 --Translation missing
