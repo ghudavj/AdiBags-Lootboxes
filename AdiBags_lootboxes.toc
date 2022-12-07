@@ -5,9 +5,10 @@
 ## Notes-frFR: Ajoute différents coffres dans un groupe AdiBags
 
 ## Version: @project-version@
-## Author: McRadane, Bruneor of Heroes of Silence - Khaz'Goroth-EU
+## Author: Ghuda (Vol'jin) based on based on work by McRadane, Bruneor of Heroes of Silence - Khaz'Goroth-EU
 ## X-Date: @project-date-iso@
-## X-Curse-Project-ID: 366993
+## X-WoWI-ID: 26331
+## X-Curse-Project-ID: 724353
 ## X-License: MIT
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
