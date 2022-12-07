@@ -7,7 +7,7 @@
 ## Version: @project-version@
 ## Author: Ghuda (Vol'jin) based on based on work by McRadane, Bruneor of Heroes of Silence - Khaz'Goroth-EU
 ## X-Date: @project-date-iso@
-## X-WoWI-ID: 26331
+## X-WoWI-ID: 26550
 ## X-Curse-Project-ID: 724353
 ## X-License: MIT
 ## X-Category: Bags & Inventory
