@@ -1,4 +1,4 @@
-## Interface: 90250
+## Interface: 100002
 ## Title: AdiBags - Lootboxes
 ## Notes: Adds various lootboxes to AdiBags virtual groups
 ## Notes-deDE: Fügt mehrere Beutekisten zu AdiBags Gruppen hinzu.

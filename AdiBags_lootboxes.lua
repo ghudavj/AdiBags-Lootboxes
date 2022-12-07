@@ -6,7 +6,7 @@ local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 local N = addon.N
 local MatchIDs
 local MatchIDs2
-local Tooltip
+-- local Tooltip
 local Result = {}
 local Result2 = {}
 
@@ -365,18 +365,18 @@ local function MatchIDs2_Init(self)
 
  end
 
-local function Tooltip_Init()
-	local tip, leftside = CreateFrame("GameTooltip"), {}
-	for i = 1, 6 do
-		local Left, Right = tip:CreateFontString(), tip:CreateFontString()
-		Left:SetFontObject(GameFontNormal)
-		Right:SetFontObject(GameFontNormal)
-		tip:AddFontStrings(Left, Right)
-		leftside[i] = Left
-	end
-	tip.leftside = leftside
-	return tip
-end
+-- local function Tooltip_Init()
+-- 	local tip, leftside = CreateFrame("GameTooltip", "AibagsLootboxesTooltip", nil, "GameTooltipTemplate"), {}
+-- 	for i = 1, 6 do
+-- 		local Left, Right = tip:CreateFontString(), tip:CreateFontString()
+-- 		Left:SetFontObject(GameFontNormal)
+-- 		Right:SetFontObject(GameFontNormal)
+-- 		tip:AddFontStrings(Left, Right)
+-- 		leftside[i] = Left
+-- 	end
+-- 	tip.leftside = leftside
+-- 	return tip
+-- end
 
 local setFilter = AdiBags:RegisterFilter("Lockboxes and Chests", 96, "ABEvent-1.0")
 setFilter.uiName = N["Lockboxes and Chests"]
@@ -423,17 +423,17 @@ function setFilter:Filter(slotData)
 	end
 
 
-	Tooltip = Tooltip or Tooltip_Init()
-	Tooltip:SetOwner(UIParent,"ANCHOR_NONE")
-	Tooltip:ClearLines()
+	-- Tooltip = Tooltip or Tooltip_Init()
+	-- Tooltip:SetOwner(UIParent,"ANCHOR_NONE")
+	-- Tooltip:ClearLines()
 
-	if slotData.bag == BANK_CONTAINER then
-		Tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
-	else
-		Tooltip:SetBagItem(slotData.bag, slotData.slot)
-	end
+	-- if slotData.bag == BANK_CONTAINER then
+	-- 	Tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
+	-- else
+	-- 	Tooltip:SetBagItem(slotData.bag, slotData.slot)
+	-- end
 
-	Tooltip:Hide()
+	-- Tooltip:Hide()
 end
 
 function setFilter:GetOptions()
