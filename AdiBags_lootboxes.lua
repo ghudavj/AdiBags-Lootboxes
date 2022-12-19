@@ -260,6 +260,99 @@ local shadowlandsCons = {
 	179380
 }
 
+local dragonflightMisc = {
+	189765,
+	190233,
+	191203,
+	194037,
+	194419,
+	194750,
+	198166,
+	198167,
+	198168,
+	198169,
+	198170,
+	198171,
+	198438,
+	198439,
+	198657,
+	198863,
+	198864,
+	198865,
+	198866,
+	198867,
+	198868,
+	198869,
+	199108,
+	199192,
+	199472,
+	199473,
+	199474,
+	199475,
+	200609,
+	200610,
+	200611,
+	200931,
+	200932,
+	200934,
+	200936,
+	201296,
+	201297,
+	201298,
+	201299,
+	201326,
+	201343,
+	201352,
+	201353,
+	201354,
+	201439,
+	202079,
+	202080,
+	202097,
+	202098,
+	202099,
+	202100,
+	202101,
+	202122
+}
+
+local dragonflightCons = {
+	198172,
+	200069,
+	200070,
+	200072,
+	200073,
+	200094,
+	200095,
+	200468,
+	200513,
+	200515,
+	200516,
+	201250,
+	201251,
+	201252,
+	201462,
+	201728,
+	201754,
+	201755,
+	201817,
+	201818,
+	202142,
+	203434,
+	203435,
+	203436,
+	203437,
+	203438,
+	203439,
+	203440,
+	203441,
+	203444,
+	203447,
+	203448,
+	203449,
+	203450
+}
+
 local holidays = {
 	104319,
 	116761,
@@ -345,6 +438,14 @@ local function MatchIDs_Init(self)
 		AddToSet(Result, shadowlandsCons)
 	end
 
+	if self.db.profile.moveDragonflightMisc then
+		AddToSet(Result, dragonflightMisc)
+	end
+
+	if self.db.profile.moveDragonflightCons then
+		AddToSet(Result, dragonflightCons)
+	end
+
 	if self.db.profile.moveHolidays then
 		AddToSet(Result, holidays)
 	end
@@ -389,6 +490,8 @@ function setFilter:OnInitialize()
 			moveParagon = true,
 			moveShadowlandsMisc = true,
 			moveShadowlandsCons = true,
+			moveDragonflightMisc = true,
+			moveDragonflightCons = true,
 			moveHolidays = true,
 		}
 	})
@@ -459,6 +562,18 @@ function setFilter:GetOptions()
 		moveShadowlandsMisc = {
 			name  = N["Shadowlands Miscellaneous"],
 			desc  = N["Show Shadowlands Miscellaneous chests in this group."],
+			type  = "toggle",
+			order = 25
+		},
+		moveDragonflightMisc = {
+			name  = N["Dragonlight Miscellaneous"],
+			desc  = N["Show Dragonlight Miscellaneous chests in this group."],
+			type  = "toggle",
+			order = 25
+		},
+		moveDragonflightCons = {
+			name  = N["Dragonlight Consumables"],
+			desc  = N["Show Dragonlight Consumables chests in this group."],
 			type  = "toggle",
 			order = 25
 		},
